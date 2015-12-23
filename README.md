@@ -38,5 +38,5 @@ Suppose if you just want to add a local notification anywhere inside the app (no
 ```
 
 
-Follow me or ask questions or just say Hi! at Twitter : <a href="https://twitter.com/mayuur" target="_blank">@mayuur</a>
+Any questions? Let's talk at <a href="https://twitter.com/mayuur" target="_blank">@mayuur</a>
 
