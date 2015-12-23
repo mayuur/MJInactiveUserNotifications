@@ -15,6 +15,7 @@
 		77F5D0691C2A6E4300CBA82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F5D0621C2A6E4300CBA82B /* Main.storyboard */; };
 		77F5D06A1C2A6E4300CBA82B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77F5D0641C2A6E4300CBA82B /* Info.plist */; };
 		77F5D06B1C2A6E4300CBA82B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F5D0651C2A6E4300CBA82B /* ViewController.swift */; };
+		77F5D06E1C2A736500CBA82B /* UIApplication+MJLocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F5D06D1C2A736500CBA82B /* UIApplication+MJLocalNotifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		77F5D0631C2A6E4300CBA82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77F5D0641C2A6E4300CBA82B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77F5D0651C2A6E4300CBA82B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77F5D06D1C2A736500CBA82B /* UIApplication+MJLocalNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+MJLocalNotifications.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		77F5D05D1C2A6E4300CBA82B /* MJInactiveUserNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				77F5D06C1C2A736500CBA82B /* Extensions */,
 				77F5D05E1C2A6E4300CBA82B /* AppDelegate.swift */,
 				77F5D05F1C2A6E4300CBA82B /* Assets.xcassets */,
 				77F5D0601C2A6E4300CBA82B /* LaunchScreen.storyboard */,
@@ -124,6 +127,14 @@
 				77F5D0651C2A6E4300CBA82B /* ViewController.swift */,
 			);
 			path = MJInactiveUserNotifications;
+			sourceTree = "<group>";
+		};
+		77F5D06C1C2A736500CBA82B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77F5D06D1C2A736500CBA82B /* UIApplication+MJLocalNotifications.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				77F5D06B1C2A6E4300CBA82B /* ViewController.swift in Sources */,
 				77F5D0661C2A6E4300CBA82B /* AppDelegate.swift in Sources */,
+				77F5D06E1C2A736500CBA82B /* UIApplication+MJLocalNotifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
