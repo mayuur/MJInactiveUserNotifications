@@ -16,6 +16,7 @@
 		77F5D06A1C2A6E4300CBA82B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77F5D0641C2A6E4300CBA82B /* Info.plist */; };
 		77F5D06B1C2A6E4300CBA82B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F5D0651C2A6E4300CBA82B /* ViewController.swift */; };
 		77F5D06E1C2A736500CBA82B /* UIApplication+MJLocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F5D06D1C2A736500CBA82B /* UIApplication+MJLocalNotifications.swift */; };
+		77F5D0711C2A73DC00CBA82B /* notification1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77F5D0701C2A73DC00CBA82B /* notification1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		77F5D0641C2A6E4300CBA82B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77F5D0651C2A6E4300CBA82B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77F5D06D1C2A736500CBA82B /* UIApplication+MJLocalNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+MJLocalNotifications.swift"; sourceTree = "<group>"; };
+		77F5D0701C2A73DC00CBA82B /* notification1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notification1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				77F5D0621C2A6E4300CBA82B /* Main.storyboard */,
 				77F5D0641C2A6E4300CBA82B /* Info.plist */,
 				77F5D0651C2A6E4300CBA82B /* ViewController.swift */,
+				77F5D06F1C2A73CA00CBA82B /* Supporting Files */,
 			);
 			path = MJInactiveUserNotifications;
 			sourceTree = "<group>";
@@ -135,6 +138,14 @@
 				77F5D06D1C2A736500CBA82B /* UIApplication+MJLocalNotifications.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77F5D06F1C2A73CA00CBA82B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77F5D0701C2A73DC00CBA82B /* notification1.mp3 */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +256,7 @@
 				77F5D0691C2A6E4300CBA82B /* Main.storyboard in Resources */,
 				77F5D0671C2A6E4300CBA82B /* Assets.xcassets in Resources */,
 				77F5D0681C2A6E4300CBA82B /* LaunchScreen.storyboard in Resources */,
+				77F5D0711C2A73DC00CBA82B /* notification1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
