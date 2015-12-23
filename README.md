@@ -8,7 +8,7 @@ SWIFT Extension on UIApplication to instantly add UILocalNotifications to a user
 1. Setup permissions for Local Notifications in `AppDelegate.m` in the following function
 
 ```
-func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [.Sound, .Alert, .Badge], categories: nil));
         return true
     }
@@ -34,7 +34,7 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
 Suppose if you just want to add a local notification anywhere inside the app (not regarding the inactivity), then just write the following code: 
 
 ```
-        UIApplication.sharedApplication().scheduleMJLocalNotification("Max, we miss you! Check out our new updates!", duration: 15, soundName: "notification1.mp3", notificationType: MJNotificationType.MJNotificationTypeSimple);
+   UIApplication.sharedApplication().scheduleMJLocalNotification("Max, we miss you! Check out our new updates!", duration: 15, soundName: "notification1.mp3", notificationType: MJNotificationType.MJNotificationTypeSimple);
 ```
 
 
